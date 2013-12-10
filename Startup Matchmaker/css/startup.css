@@ -1,0 +1,196 @@
+/* 
+Project Name: Startup Matchmaker
+Client: Your Client
+Author: Philip
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right; 
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left; 
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 100%;
+     min-height:960px;
+	margin: 0 auto;
+     border: 2px solid black;
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+h2 {
+     font-size: 28px;
+}
+
+h3 {
+     font-size: 24px;
+}
+
+p {
+     font-size: 18px;
+}
+
+.button {
+     font-family: Oswald, sans-serif;
+     text-decoration: none;
+     font-weight: bold;
+     background: yellow;
+     color: black;
+     display: block;
+     text-align: center;
+     padding: 12px;
+     border-radius: 5px;
+     margin: 10px 0;
+}
+
+#top-header {
+     background: black;
+     color: white;
+     overflow: hidden;
+     border-bottom: 4px solid yellow;
+     padding: 0 3%;
+}
+
+#top-header a {
+     color: inherit;
+     text-decoration: none;
+}
+#top-header h1 {
+     float: left;
+     color: yellow;
+     font-family: Oswald, sans-serif;
+     font-size: 24px;
+     margin: 20px 0 0 0;
+}
+#top-header nav {
+     float: right;
+}
+#top-header nav li {
+     float: left;
+}
+#top-header nav a {
+     display: block;
+     padding: 20px 15px;
+}
+
+.tagline {
+     background-color: #c6c6c6;
+     text-align: center;
+     font-size: 24px;
+     padding: 20px;
+}
+
+#middle {
+     background: url(../images/coworking.jpg) center center no-repeat;
+     background-size: cover;
+     overflow: hidden;
+     padding: 3%;
+     box-shadow: inset 0 0 5px rgba(0,0,0,.75);
+}
+
+#meet-match {
+     background: rgba(255,255,255,.8);
+     width: 34%;
+     margin: 0 auto;
+     padding: 4%;
+     float: right;
+     box-shadow: 0 0 5px rgba(0,0,0,.75);
+}
+.boxes {
+     display: inline-block;
+     width: 80%;
+     padding: 2% 0;
+     overflow: hidden;
+     margin: 0 8%;
+}
+
+.box {
+     float: left;
+     width: 33%;
+     padding: 2% 3%;
+     box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+}
+
+.box h3,p{
+     padding: 5px 0px 5px 0;
+}
+
+
+
+footer {
+     clear: both;
+     text-align: center;
+     background-color: black;
+     color: white;
+     padding: 60px;
+     font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
