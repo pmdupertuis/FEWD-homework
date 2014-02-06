@@ -1,0 +1,34 @@
+h1 {
+	font-size: 56px;
+	text-align: center;
+}
+
+.table {
+	background-color: green;
+	border-radius: 10px;
+}
+
+.allCards {
+
+}
+
+.king {
+	background: url("../images/King.png");
+	height: 100px;
+	width: 100px;
+	background-repeat: no-repeat;
+}
+
+.queen {
+	background: url("../images/Queen.png");
+	height: 100px;
+	width: 100px;
+	background-repeat: no-repeat;
+}
+
+.card {
+	background: url("../images/back-of-card.png");
+	height: 100px;
+	width: 100px;
+	background-repeat: no-repeat;
+}

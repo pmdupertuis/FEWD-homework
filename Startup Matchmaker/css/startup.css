@@ -177,6 +177,71 @@ footer {
      font-size: 18px;
 }
 
+/* Mobile */
+
+
+
+@media only screen and (max-width: 480px){
+
+*{
+     -webkit-transition:width 1s;
+}
+nav li{
+     width:100%;
+}
+
+nav{
+     display:none;
+}
+
+.tagline{
+     display:none;
+}
+
+#meet-match {
+     width:70%;
+}
+
+#meet-match p:nth-of-type(1) {
+     display:none;
+}
+
+.box {
+     float:none;
+     width: 100%;
+     border-bottom: 2px solid black;
+}
+
+.box p:nth-of-type(1){
+     display:none;
+}
+
+.boxes .button {
+     display:none;
+}
+
+#mobile-nav {
+     height: 50px;
+     width: 50px;
+     background: yellow;
+     float:right;
+     border-radius: 10%;
+}
+}
+
+/*css transition*/
+/**/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
